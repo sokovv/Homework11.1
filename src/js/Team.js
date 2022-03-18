@@ -2,7 +2,6 @@
 class Team {
     constructor() {
         this.members = new Set();
-
     }
 
     [Symbol.iterator]() {

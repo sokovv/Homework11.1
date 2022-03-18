@@ -35,6 +35,3 @@ test('Метод add(Ошибка добавления)', () => {
     expect(received).toThrow();
 });
 
-test(' iterator', () => {
-    expect([...enemy]).toEqual([...enemy.members]);
-});
